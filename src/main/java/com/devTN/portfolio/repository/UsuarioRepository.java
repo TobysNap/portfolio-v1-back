@@ -1,0 +1,13 @@
+package com.devTN.portfolio.repository;
+
+import com.devTN.portfolio.model.Usuario;
+import java.util.Optional;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+        Optional<Usuario> findOneByEmail(String email);
+
+        boolean existsByEmail(String email);
+}

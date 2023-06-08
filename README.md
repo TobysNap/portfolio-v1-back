@@ -3,7 +3,7 @@ Back-end Java para proyecto "Portfolio Web".
 
 Mi primer proyecto Java.
 
-Este proyecto consiste de una API Rest que comunica el front-end (proyecto Angular: https://github.com/TobysNap/Portfolio-FrontEnd) y la base de datos MySQL (https://github.com/TobysNap/Portfolio-BaseDeDatos) de mi proyecto "Portfolio Web".
+Este proyecto consiste de una API Rest que comunica el front-end (proyecto Angular: https://github.com/TobysNap/portfolio-v1-front) y la base de datos MySQL (https://github.com/TobysNap/Portfolio-BaseDeDatos) de mi proyecto "Portfolio Web".
 
 El proyecto está programado en Java con implementación de Spring Boot.
 
